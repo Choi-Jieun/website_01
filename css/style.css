@@ -1,0 +1,50 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+
+/*
+font-family: 'Pacifico', cursive;
+font-family: 'Source Sans Pro', sans-serif;
+*/
+
+*{box-sizing: border-box; font-family: 'Source Sans Pro', sans-serif;}
+html, body{margin: 0; padding: 0;}
+h1, h2, h3, h4, h5, h6, p{margin: 0;}
+ul, ol{margin: 0; padding: 0; list-style: none;}
+a{text-decoration: none;}
+
+.font_paci{font-family: 'Pacifico', cursive;}
+
+
+/* 실습1. 2단 메뉴구성 */
+
+#ex_01{background: #a5f; font-size: 0;}
+
+#ex_01 .top{width: 1140px; padding: 0 10px; background: #000; height: 30px; font-size: 14px; font-weight: normal; position: relative; margin: 0 auto;}
+#ex_01 .top .t_box{float: left;}
+#ex_01 .top .t_box .t_left{}
+#ex_01 .top .t_box .t_left li{display: inline-block; padding: 0 10px;}
+#ex_01 .top .t_box .t_left li a{color: #fff; line-height: 33px; display: block;}
+#ex_01 .top .t_box .t_left li a i{}
+
+#ex_01 .top .t_box .t_right{position: absolute; right: 10px; top: 0;}
+#ex_01 .top .t_box .t_right ul{}
+#ex_01 .top .t_box .t_right ul a{display: inline-block; color: #fff; line-height: 33px; margin: 0 10px;}
+#ex_01 .top .t_box .t_right ul a i{}
+
+
+#ex_01 .main_bar{height: 66px; background-image: url(../img/1.jpg); background-size: cover; background-position: auto; background-repeat: no-repeat;}
+#ex_01 .main_bar .dark{background: rgba(0,0,0,0.5);}
+#ex_01 .main_bar .dark .wrap{width: 1160px; margin: 0 auto;}
+#ex_01 .main_bar .dark .wrap .logo{width: 180px;}
+#ex_01 .main_bar .dark .wrap .logo a{}
+#ex_01 .main_bar .dark .wrap .logo a img{}
+
+#ex_01 .main_bar .dark .wrap .m_right{}
+#ex_01 .main_bar .dark .wrap .m_right .menu{}
+#ex_01 .main_bar .dark .wrap .m_right .menu ul{}
+#ex_01 .main_bar .dark .wrap .m_right .menu ul li{}
+#ex_01 .main_bar .dark .wrap .m_right .menu ul li a{}
+
+#ex_01 .main_bar .dark .wrap .m_right ul{}
+#ex_01 .main_bar .dark .wrap .m_right ul li{width: 180px;}
+#ex_01 .main_bar .dark .wrap .m_right ul li a{}
